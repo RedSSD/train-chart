@@ -66,5 +66,9 @@ def parse_excel(excel_file):
     with open("data.json", "w") as data_file:
         json.dump(train_list, data_file)
 
+    with open("data.json", "r") as data_file:
+        d = json.load(data_file)
+        print(d)
+
     response = "File uploaded"
     return response
