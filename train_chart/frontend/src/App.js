@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import CompanyTrainList from "./components/CompanyTrainList/CompanyTrainList";
-import TrainList from "./components/CompanyTrainList/TrainList";
+import TrainList from "./components/TrainList/TrainList";
+import FileUploader from "./components/FileUploader/FileUploader";
 
 function App() {
   return (
     <div className="App">
-      <TrainList></TrainList>
+        <TrainList></TrainList>
+        <FileUploader></FileUploader>
     </div>
   );
 }
